@@ -1,3 +1,8 @@
+#header-nav {
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  
+}
 body {
   font-size: 16px;
   color: rgb(0, 0, 0);
@@ -9,40 +14,44 @@ body {
 #header-nav {
   background-color: rgb(153,153, 153);
   border-radius: 0;
-  border: 0;
+  border: 1px;
 }
 #our_menu{
   font-size: 3em;
   font-weight: bold;
   text-align: center;
 }
-#b_c_s{
+#three_items{
   padding: 15px;
   
+}
+
+#div_chicken_text, #div_beef_text, #div_sushi_text {
+ 
+  text-align:center;
+  font-weight: normal;
+background-color: rgb(153, 153, 153);
+
+
 }
 #div_chicken, #div_beef, #div_sushi{
   text-align:center;
   font-weight: bold;
 background-color: rgb(153, 153, 153);
-margin: 25px;
+margin: 15px;
 }
-#div_chicken_text, #div_beef_text, #div_sushi_text{
-  text-align:center;
-  font-weight: normal;
-background-color: rgb(153, 153, 153);
-margin: 25px;
-}
-
 
 
 .navbar-brand {
   padding-top: 25px;
+  
 }
 
 .navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
+  font-family: 'Lora';
   color: #000000;
   font-size: 1.5em;
+  
   
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
@@ -53,14 +62,13 @@ margin: 25px;
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-.navbar-brand p { /* Kosher cert */
+.navbar-brand p { 
   color: #000;
-  text-transform: uppercase;
-  font-size: .7em;
+   font-size: .7em;
   margin-top: 15px;
 }
 .navbar-brand p span { /* Star-K */
-  vertical-align: middle;
+  vertical-align: right;
 }
 
 #nav-list {
@@ -86,7 +94,7 @@ margin: 25px;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: -30px;
+  margin-top: -px;
 }
 /* END HEADER */
 
@@ -96,12 +104,15 @@ margin: 25px;
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
- 
   
+
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
+  
+  }
+  
   /* Header */
 
   /* End Header */
@@ -147,18 +158,17 @@ margin: 25px;
   }
   #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
-    margin-right: 5px;
+    margin-right: 0px;
   }
 
- 
+ #food_llc{
+  font-size: 2.1em;
+ }
  
   /* End Header */
 
   /* Home Page */
-  .container .jumbotron {
-    margin-top: 30px;
-    padding: 0;
-  }
+  
   #our_menu{
     font-size: 2.3em;
     font-weight: bold;
